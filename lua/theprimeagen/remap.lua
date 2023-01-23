@@ -4,7 +4,7 @@ local opts = {noremap = true}
 vim.g.mapleader = ' '
 
 -- Show Explore 
-vim.keymap.set("n", "<leader>pe", ":NvimTreeToggle<cr>", {noremap = true, silent = true})
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>", {noremap = true, silent = true})
 
 -- Save and quit
 vim.keymap.set('n', '<leader>q', '<cmd>q<CR>', opts)
